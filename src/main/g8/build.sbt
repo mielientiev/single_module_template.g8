@@ -29,7 +29,7 @@ lazy val commonBuildSettings = Seq(
     Resolver.defaultLocal,
     Resolver.sonatypeRepo("releases"),
     Resolver.sonatypeRepo("snapshots")
-  ),
+  )
 )
 lazy val root = (project in file("."))
   .settings(commonBuildSettings)
