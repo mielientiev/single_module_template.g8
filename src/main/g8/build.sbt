@@ -17,7 +17,6 @@ lazy val commonBuildSettings = Seq(
     "-Ywarn-unused", // Warn when local and private vals, vars, defs, and types are unused.
     "-Ywarn-nullary-override", // Warn when non-nullary overrides nullary, e.g. def foo() over def foo.
     "-Ywarn-numeric-widen", // Warn when numerics are widened.
-    "-Ywarn-value-discard", // Warn us when we're returning a value after specifying the return is Unit.
     "-explaintypes", //Explain type errors in more detail.
     "-encoding", "UTF-8",
     "-Xexperimental",
