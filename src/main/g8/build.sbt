@@ -23,7 +23,6 @@ lazy val commonBuildSettings = Seq(
     "-Ydelambdafy:method", // the strategy used for translating lambdas into JVM code. The current standard is "inline" but they're moving towards "method."
     "-Xfuture" // Turn on future language features and guard against a few deprecated features around Futures.
   ),
-  scalafmtConfig in ThisBuild := Some(file(".scalafmt.conf")),
   resolvers ++= Seq(
     Resolver.defaultLocal,
     Resolver.sonatypeRepo("releases"),
