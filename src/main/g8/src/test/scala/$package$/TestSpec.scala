@@ -1,4 +1,4 @@
-package $organization$
+package $package$
 
 import org.scalatest.{Matchers, WordSpecLike}
 
